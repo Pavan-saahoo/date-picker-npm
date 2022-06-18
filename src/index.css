@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/** date picker css start **/
+.form-control:focus {
+  border: 1px solid #dbdfe4 !important;
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.form-control[readonly] {
+  background-color: #ffffff !important;
+  opacity: 1;
+  padding-right: 27px;
+}
+
+.datePickerValueP{
+  padding-right: 27px !important;
+}
+
+.date-range-icon {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  color: #7A7E85;
+}
+/** date picker css start **/
